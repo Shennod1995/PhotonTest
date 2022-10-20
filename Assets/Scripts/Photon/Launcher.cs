@@ -32,7 +32,6 @@ public class Launcher : MonoBehaviourPunCallbacks
         PhotonNetwork.JoinLobby();
     }
 
-
     public override void OnCreateRoomFailed(short returnCode, string message)
     {
         Debug.Log("error" + message);
