@@ -33,7 +33,6 @@ public class Launcher : MonoBehaviourPunCallbacks
     }
 
 
-
     public override void OnCreateRoomFailed(short returnCode, string message)
     {
         Debug.Log("error" + message);
