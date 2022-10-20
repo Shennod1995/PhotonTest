@@ -42,6 +42,8 @@ public class Launcher : MonoBehaviourPunCallbacks
     //    RoomOptions roomOptions = new RoomOptions();
     //    roomOptions.MaxPlayers = 4;
     //    roomOptions.IsVisible = true;
+
+
     //    PhotonNetwork.JoinOrCreateRoom("Room" + Random.Range(0, 1000).ToString(), roomOptions, TypedLobby.Default);
     //}
 
